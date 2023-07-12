@@ -5,18 +5,22 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla.API", "MagicVilla_API\MagicVilla.API.csproj", "{2134132B-208C-4A57-B9C4-55C90AD7D21C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Infraestructura.Interface", "MagicVilla.Infraestructura\MagicVilla.Infraestructura.Interface.csproj", "{3E1C261D-ACA0-432A-B251-B20FF8951686}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla.Infraestructura.Interface", "MagicVilla.Infraestructura\MagicVilla.Infraestructura.Interface.csproj", "{3E1C261D-ACA0-432A-B251-B20FF8951686}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infraestructura", "4.Infraestructura", "{EF6CDCB4-76CA-4026-B2ED-947EC5A49DC0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Servicio", "1.Servicio", "{6AA4E845-0A9E-425D-B19B-43C5945CEBE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Infraestructura.Core", "MagicVilla.Infraestructura.Core\MagicVilla.Infraestructura.Core.csproj", "{8EB3FD03-665A-44BA-A109-1105C6B53809}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla.Infraestructura.Core", "MagicVilla.Infraestructura.Core\MagicVilla.Infraestructura.Core.csproj", "{8EB3FD03-665A-44BA-A109-1105C6B53809}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{43D692F4-5215-4284-A888-79B0EACDF32B}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Aplicación", "2.Aplicación", "{10F19392-1673-4086-855B-1930A1C5834C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Dominio", "3.Dominio", "{82B3607E-82A8-41FC-92B8-6E9B3AF8FB47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
