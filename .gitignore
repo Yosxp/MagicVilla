@@ -1,0 +1,29 @@
+# Archivos de compilación
+bin/
+obj/
+
+# Archivos de configuración local
+appsettings.Development.json
+appsettings.Local.json
+
+# Archivos de NuGet
+*.nupkg
+packages/
+
+# Archivos de publicación
+publish/
+
+# Otros archivos y carpetas generados
+.vs/
+*_Resharper*/ 
+*.suo
+*.user
+*.userprefs
+*.log
+*.vspscc
+*.vssscc
+*.sln.docstates
+
+# Archivos de caché generales
+*.cache
+*.log
