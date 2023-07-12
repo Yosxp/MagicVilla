@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla.API", "MagicVilla_API\MagicVilla.API.csproj", "{2134132B-208C-4A57-B9C4-55C90AD7D21C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla.Servicio.API", "MagicVilla_API\MagicVilla.Servicio.API.csproj", "{2134132B-208C-4A57-B9C4-55C90AD7D21C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla.Infraestructura.Interface", "MagicVilla.Infraestructura\MagicVilla.Infraestructura.Interface.csproj", "{3E1C261D-ACA0-432A-B251-B20FF8951686}"
 EndProject
