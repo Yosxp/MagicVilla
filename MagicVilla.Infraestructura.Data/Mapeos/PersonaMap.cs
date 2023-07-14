@@ -1,22 +1,16 @@
 ﻿using MagicVilla.Dominio.Entidades;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace MagicVilla.Infraestructura.Data.Mapeos
 {
     internal class PersonaMap
     {
-        public new void Configure(EntityTypeBuilder<Persona> builder)
+        public void Configure(EntityTypeBuilder<Persona> builder)
         {
             builder.HasKey(t => t.Id);
 
             builder.Property(t => t.Id)
-                .HasColumnName("ID")
                 .HasColumnType("INT")
                 .ValueGeneratedOnAdd();
 
@@ -33,7 +27,6 @@ namespace MagicVilla.Infraestructura.Data.Mapeos
                 .HasColumnName("Sexo");
             
             builder.ToTable("personas");
-
         }
     }
 }
