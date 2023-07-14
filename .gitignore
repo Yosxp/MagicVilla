@@ -362,3 +362,6 @@ FodyWeavers.xsd
 
 /.sonarqube
 /UTE.GDCGEX.Servicio.Mantenimiento/appsettings.json
+/.vs/MagicVilla/v17/.suo
+/MagicVilla_API/obj/project.assets.json
+/MagicVilla_API/obj/project.nuget.cache
