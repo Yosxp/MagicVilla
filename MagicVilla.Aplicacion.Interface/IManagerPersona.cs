@@ -2,6 +2,6 @@
 {
     public interface IManagerPersona
     {
-        //Comentario de Yosvani
+       
     }
 }

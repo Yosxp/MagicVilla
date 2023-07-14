@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.6.33723.286
+VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla.Servicio.API", "MagicVilla_API\MagicVilla.Servicio.API.csproj", "{2134132B-208C-4A57-B9C4-55C90AD7D21C}"
 EndProject
@@ -22,9 +22,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Aplicación", "2.Aplicaci
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Dominio", "3.Dominio", "{82B3607E-82A8-41FC-92B8-6E9B3AF8FB47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Aplicacion.Interface", "MagicVilla.Aplicacion.Interface\MagicVilla.Aplicacion.Interface.csproj", "{685D2D44-AB9A-48A9-BF95-7EAEA0D1D438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla.Aplicacion.Interface", "MagicVilla.Aplicacion.Interface\MagicVilla.Aplicacion.Interface.csproj", "{685D2D44-AB9A-48A9-BF95-7EAEA0D1D438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Dominio.Interface", "MagicVilla.Dominio.Interface\MagicVilla.Dominio.Interface.csproj", "{228F8E5A-93ED-4E08-AEA5-A2530EC3BF4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla.Dominio.Interface", "MagicVilla.Dominio.Interface\MagicVilla.Dominio.Interface.csproj", "{228F8E5A-93ED-4E08-AEA5-A2530EC3BF4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Dominio.Core", "MagicVilla.Dominio.Core\MagicVilla.Dominio.Core.csproj", "{FE073A4A-4A7C-4DDC-A92F-9B71066494A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Dominio.Entidades", "MagicVilla.Dominio.Entidades\MagicVilla.Dominio.Entidades.csproj", "{440AD06D-F896-482B-BA69-1F37E645788B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Infraestructura.Data", "MagicVilla.Infraestructura.Data\MagicVilla.Infraestructura.Data.csproj", "{6E0BF512-CC2C-4B42-AA59-E23B4F7F1E40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +58,18 @@ Global
 		{228F8E5A-93ED-4E08-AEA5-A2530EC3BF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{228F8E5A-93ED-4E08-AEA5-A2530EC3BF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{228F8E5A-93ED-4E08-AEA5-A2530EC3BF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE073A4A-4A7C-4DDC-A92F-9B71066494A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE073A4A-4A7C-4DDC-A92F-9B71066494A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE073A4A-4A7C-4DDC-A92F-9B71066494A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE073A4A-4A7C-4DDC-A92F-9B71066494A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440AD06D-F896-482B-BA69-1F37E645788B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440AD06D-F896-482B-BA69-1F37E645788B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440AD06D-F896-482B-BA69-1F37E645788B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440AD06D-F896-482B-BA69-1F37E645788B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0BF512-CC2C-4B42-AA59-E23B4F7F1E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0BF512-CC2C-4B42-AA59-E23B4F7F1E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0BF512-CC2C-4B42-AA59-E23B4F7F1E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0BF512-CC2C-4B42-AA59-E23B4F7F1E40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +80,9 @@ Global
 		{8EB3FD03-665A-44BA-A109-1105C6B53809} = {EF6CDCB4-76CA-4026-B2ED-947EC5A49DC0}
 		{685D2D44-AB9A-48A9-BF95-7EAEA0D1D438} = {10F19392-1673-4086-855B-1930A1C5834C}
 		{228F8E5A-93ED-4E08-AEA5-A2530EC3BF4A} = {82B3607E-82A8-41FC-92B8-6E9B3AF8FB47}
+		{FE073A4A-4A7C-4DDC-A92F-9B71066494A1} = {82B3607E-82A8-41FC-92B8-6E9B3AF8FB47}
+		{440AD06D-F896-482B-BA69-1F37E645788B} = {82B3607E-82A8-41FC-92B8-6E9B3AF8FB47}
+		{6E0BF512-CC2C-4B42-AA59-E23B4F7F1E40} = {EF6CDCB4-76CA-4026-B2ED-947EC5A49DC0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34831E5D-B65B-4CCB-AAED-9516F4D04B1E}

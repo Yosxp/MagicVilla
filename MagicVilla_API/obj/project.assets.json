@@ -1158,19 +1158,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\José Carlos\\.nuget\\packages\\": {}
+    "C:\\Users\\Hodor\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GITHUB\\MagicVilla_API\\MagicVilla.API.csproj",
-      "projectName": "MagicVilla.API",
-      "projectPath": "D:\\GITHUB\\MagicVilla_API\\MagicVilla.API.csproj",
-      "packagesPath": "C:\\Users\\José Carlos\\.nuget\\packages\\",
-      "outputPath": "D:\\GITHUB\\MagicVilla_API\\obj\\",
+      "projectUniqueName": "C:\\Users\\Hodor\\source\\repos\\MagicVilla\\MagicVilla_API\\MagicVilla.Servicio.API.csproj",
+      "projectName": "MagicVilla.Servicio.API",
+      "projectPath": "C:\\Users\\Hodor\\source\\repos\\MagicVilla\\MagicVilla_API\\MagicVilla.Servicio.API.csproj",
+      "packagesPath": "C:\\Users\\Hodor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hodor\\source\\repos\\MagicVilla\\MagicVilla_API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\José Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hodor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1178,17 +1182,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\GITHUB\\MagicVilla.Infraestructura.Core\\MagicVilla.Infraestructura.Core.csproj": {
-              "projectPath": "D:\\GITHUB\\MagicVilla.Infraestructura.Core\\MagicVilla.Infraestructura.Core.csproj"
+            "C:\\Users\\Hodor\\source\\repos\\MagicVilla\\MagicVilla.Infraestructura.Core\\MagicVilla.Infraestructura.Core.csproj": {
+              "projectPath": "C:\\Users\\Hodor\\source\\repos\\MagicVilla\\MagicVilla.Infraestructura.Core\\MagicVilla.Infraestructura.Core.csproj"
             },
-            "D:\\GITHUB\\MagicVilla.Infraestructura\\MagicVilla.Infraestructura.Interface.csproj": {
-              "projectPath": "D:\\GITHUB\\MagicVilla.Infraestructura\\MagicVilla.Infraestructura.Interface.csproj"
+            "C:\\Users\\Hodor\\source\\repos\\MagicVilla\\MagicVilla.Infraestructura\\MagicVilla.Infraestructura.Interface.csproj": {
+              "projectPath": "C:\\Users\\Hodor\\source\\repos\\MagicVilla\\MagicVilla.Infraestructura\\MagicVilla.Infraestructura.Interface.csproj"
             }
           }
         }
@@ -1231,7 +1236,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
