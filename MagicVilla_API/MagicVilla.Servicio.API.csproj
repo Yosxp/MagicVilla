@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MagicVilla.Dominio.Entidades\MagicVilla.Dominio.Entidades.csproj" />
     <ProjectReference Include="..\MagicVilla.Infraestructura.Core\MagicVilla.Infraestructura.Core.csproj" />
     <ProjectReference Include="..\MagicVilla.Infraestructura\MagicVilla.Infraestructura.Interface.csproj" />
   </ItemGroup>

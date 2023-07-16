@@ -1,4 +1,5 @@
-﻿using MagicVilla.Infraestructura.Interface;
+﻿using MagicVilla.Dominio.Entidades;
+using MagicVilla.Infraestructura.Interface;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System.Reflection;
@@ -20,6 +21,11 @@ namespace MagicVilla.Infraestructura.Core
         }
 
         public DbContext Instance => this;
+
+        #region Tables
+        public virtual DbSet<Persona> Personas { get; set; }
+
+        #endregion
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -45,7 +51,8 @@ namespace MagicVilla.Infraestructura.Core
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            string assemblyPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "MagicVilla.Infraestructura.Data.dll");
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.LoadFrom(assemblyPath));
         }
     }
 }

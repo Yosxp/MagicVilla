@@ -1,3 +1,5 @@
+using MagicVilla.Dominio.Entidades;
+using MagicVilla.Infraestructura.Interface;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -13,15 +15,18 @@ namespace MagicVilla_API.Controllers
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
-
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        private readonly IRepositorio<Persona> _personas;
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IRepositorio<Persona> personas)
         {
             _logger = logger;
+            _personas = personas;
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+            List<Persona> personas = _personas.GetAll().ToList();
+
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),

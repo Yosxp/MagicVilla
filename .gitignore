@@ -365,3 +365,4 @@ FodyWeavers.xsd
 /.vs/MagicVilla/v17/.suo
 /MagicVilla_API/obj/project.assets.json
 /MagicVilla_API/obj/project.nuget.cache
+/.vs/MagicVilla/DesignTimeBuild/.dtbcache.v2

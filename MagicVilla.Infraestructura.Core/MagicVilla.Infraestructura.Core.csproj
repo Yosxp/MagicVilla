@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -13,6 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MagicVilla.Dominio.Entidades\MagicVilla.Dominio.Entidades.csproj" />
+    <ProjectReference Include="..\MagicVilla.Infraestructura.Data\MagicVilla.Infraestructura.Data.csproj" />
     <ProjectReference Include="..\MagicVilla.Infraestructura\MagicVilla.Infraestructura.Interface.csproj" />
   </ItemGroup>
 
