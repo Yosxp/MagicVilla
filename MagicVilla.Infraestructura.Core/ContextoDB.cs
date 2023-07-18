@@ -38,7 +38,8 @@ namespace MagicVilla.Infraestructura.Core
                 {
                     case "mysql":
                         {
-                            optionsBuilder.UseMySql(ServerVersion.AutoDetect(connectionString));
+                            MySqlServerVersion serverVersion = new MySqlServerVersion(new Version(8, 0, 33));
+                            optionsBuilder.UseMySql(connectionString, serverVersion);
                             break;
                         }
                     default:
