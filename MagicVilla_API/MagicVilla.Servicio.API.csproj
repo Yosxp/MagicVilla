@@ -12,7 +12,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MagicVilla.Aplicacion.Core\MagicVilla.Aplicacion.Core.csproj" />
+    <ProjectReference Include="..\MagicVilla.Aplicacion.DTO\MagicVilla.Aplicacion.DTO.csproj" />
+    <ProjectReference Include="..\MagicVilla.Aplicacion.Interface\MagicVilla.Aplicacion.Interface.csproj" />
+    <ProjectReference Include="..\MagicVilla.Dominio.Core\MagicVilla.Dominio.Core.csproj" />
     <ProjectReference Include="..\MagicVilla.Dominio.Entidades\MagicVilla.Dominio.Entidades.csproj" />
+    <ProjectReference Include="..\MagicVilla.Dominio.Interface\MagicVilla.Dominio.Interface.csproj" />
     <ProjectReference Include="..\MagicVilla.Infraestructura.Core\MagicVilla.Infraestructura.Core.csproj" />
     <ProjectReference Include="..\MagicVilla.Infraestructura\MagicVilla.Infraestructura.Interface.csproj" />
   </ItemGroup>

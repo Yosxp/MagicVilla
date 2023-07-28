@@ -18,7 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución",
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Aplicación", "2.Aplicación", "{10F19392-1673-4086-855B-1930A1C5834C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Aplicacion", "2.Aplicacion", "{10F19392-1673-4086-855B-1930A1C5834C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Dominio", "3.Dominio", "{82B3607E-82A8-41FC-92B8-6E9B3AF8FB47}"
 EndProject
@@ -26,11 +26,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla.Aplicacion.Inter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla.Dominio.Interface", "MagicVilla.Dominio.Interface\MagicVilla.Dominio.Interface.csproj", "{228F8E5A-93ED-4E08-AEA5-A2530EC3BF4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Dominio.Core", "MagicVilla.Dominio.Core\MagicVilla.Dominio.Core.csproj", "{FE073A4A-4A7C-4DDC-A92F-9B71066494A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla.Dominio.Core", "MagicVilla.Dominio.Core\MagicVilla.Dominio.Core.csproj", "{FE073A4A-4A7C-4DDC-A92F-9B71066494A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Dominio.Entidades", "MagicVilla.Dominio.Entidades\MagicVilla.Dominio.Entidades.csproj", "{440AD06D-F896-482B-BA69-1F37E645788B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla.Dominio.Entidades", "MagicVilla.Dominio.Entidades\MagicVilla.Dominio.Entidades.csproj", "{440AD06D-F896-482B-BA69-1F37E645788B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Infraestructura.Data", "MagicVilla.Infraestructura.Data\MagicVilla.Infraestructura.Data.csproj", "{6E0BF512-CC2C-4B42-AA59-E23B4F7F1E40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla.Infraestructura.Data", "MagicVilla.Infraestructura.Data\MagicVilla.Infraestructura.Data.csproj", "{6E0BF512-CC2C-4B42-AA59-E23B4F7F1E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Aplicacion.Core", "MagicVilla.Aplicacion.Core\MagicVilla.Aplicacion.Core.csproj", "{96D23B70-18E4-430E-91EC-AEEF8DDFAAB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Aplicacion.DTO", "MagicVilla.Aplicacion.DTO\MagicVilla.Aplicacion.DTO.csproj", "{F67E1793-08FD-4291-9F88-BAB9CEA4AF5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,6 +74,14 @@ Global
 		{6E0BF512-CC2C-4B42-AA59-E23B4F7F1E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E0BF512-CC2C-4B42-AA59-E23B4F7F1E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E0BF512-CC2C-4B42-AA59-E23B4F7F1E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D23B70-18E4-430E-91EC-AEEF8DDFAAB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D23B70-18E4-430E-91EC-AEEF8DDFAAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D23B70-18E4-430E-91EC-AEEF8DDFAAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D23B70-18E4-430E-91EC-AEEF8DDFAAB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67E1793-08FD-4291-9F88-BAB9CEA4AF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67E1793-08FD-4291-9F88-BAB9CEA4AF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67E1793-08FD-4291-9F88-BAB9CEA4AF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67E1793-08FD-4291-9F88-BAB9CEA4AF5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +95,8 @@ Global
 		{FE073A4A-4A7C-4DDC-A92F-9B71066494A1} = {82B3607E-82A8-41FC-92B8-6E9B3AF8FB47}
 		{440AD06D-F896-482B-BA69-1F37E645788B} = {82B3607E-82A8-41FC-92B8-6E9B3AF8FB47}
 		{6E0BF512-CC2C-4B42-AA59-E23B4F7F1E40} = {EF6CDCB4-76CA-4026-B2ED-947EC5A49DC0}
+		{96D23B70-18E4-430E-91EC-AEEF8DDFAAB4} = {10F19392-1673-4086-855B-1930A1C5834C}
+		{F67E1793-08FD-4291-9F88-BAB9CEA4AF5C} = {10F19392-1673-4086-855B-1930A1C5834C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34831E5D-B65B-4CCB-AAED-9516F4D04B1E}

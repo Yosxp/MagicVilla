@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -7,9 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MagicVilla.Aplicacion.DTO\MagicVilla.Aplicacion.DTO.csproj" />
+    <ProjectReference Include="..\MagicVilla.Aplicacion.Interface\MagicVilla.Aplicacion.Interface.csproj" />
     <ProjectReference Include="..\MagicVilla.Dominio.Entidades\MagicVilla.Dominio.Entidades.csproj" />
     <ProjectReference Include="..\MagicVilla.Dominio.Interface\MagicVilla.Dominio.Interface.csproj" />
-    <ProjectReference Include="..\MagicVilla.Infraestructura.Data\MagicVilla.Infraestructura.Data.csproj" />
     <ProjectReference Include="..\MagicVilla.Infraestructura\MagicVilla.Infraestructura.Interface.csproj" />
   </ItemGroup>
 

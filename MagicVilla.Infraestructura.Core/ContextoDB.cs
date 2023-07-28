@@ -24,6 +24,7 @@ namespace MagicVilla.Infraestructura.Core
 
         #region Tables
         public virtual DbSet<Persona> Personas { get; set; }
+        public virtual DbSet<Estudiante> Estudiantes { get; set; }
 
         #endregion
 
@@ -39,6 +40,8 @@ namespace MagicVilla.Infraestructura.Core
                     case "mysql":
                         {
                             optionsBuilder.UseMySql(ServerVersion.AutoDetect(connectionString));
+                            MySqlServerVersion serverVersion = new MySqlServerVersion(new Version(8, 0, 33));
+                            optionsBuilder.UseMySql(connectionString, serverVersion);
                             break;
                         }
                     default:
@@ -51,6 +54,7 @@ namespace MagicVilla.Infraestructura.Core
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             string assemblyPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "MagicVilla.Infraestructura.Data.dll");
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.LoadFrom(assemblyPath));
         }

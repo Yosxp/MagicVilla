@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MagicVilla.Aplicacion.DTO\MagicVilla.Aplicacion.DTO.csproj" />
+    <ProjectReference Include="..\MagicVilla.Dominio.Entidades\MagicVilla.Dominio.Entidades.csproj" />
+  </ItemGroup>
+
 </Project>

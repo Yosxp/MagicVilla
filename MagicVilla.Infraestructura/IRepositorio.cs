@@ -11,5 +11,6 @@
         T GetById(int id);
 
         IQueryable<T> GetAll();
+
     }
 }
