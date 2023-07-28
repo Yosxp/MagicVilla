@@ -50,12 +50,12 @@ namespace MagicVilla.Aplicacion.Core
         {
             var persona = new Persona
             {
-                Id = nuevaPersona.Id,
+                
                 Nombre = nuevaPersona.Nombre,
                 Apellidos = nuevaPersona.Apellidos,
                 Sexo = nuevaPersona.Sexo
             };
-            _unitOfWork.Commit();
+           
 
           return _servicioPersonas.AddPersona(persona);
             
