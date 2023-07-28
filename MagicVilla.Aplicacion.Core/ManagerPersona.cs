@@ -55,8 +55,8 @@ namespace MagicVilla.Aplicacion.Core
                 Apellidos = nuevaPersona.Apellidos,
                 Sexo = nuevaPersona.Sexo
             };
-           
 
+            _unitOfWork.CommitAndRefreshChanges();
           return _servicioPersonas.AddPersona(persona);
             
            

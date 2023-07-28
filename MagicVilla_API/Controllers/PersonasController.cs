@@ -42,7 +42,7 @@ namespace MagicVilla_API.Controllers
         {
             var nuevaPersona = new Persona
             {
-                Id = PersonaDto.Id,
+                //Id = PersonaDto.Id,
                 Nombre = PersonaDto.Nombre,
                 Apellidos = PersonaDto.Apellidos,
                 Sexo = PersonaDto.Sexo
